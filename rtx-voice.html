@@ -26,14 +26,14 @@
 <meta property="og:site_name" content="七味茶盏">
 <meta property="og:description" content="曾经在 A、N 两家的显卡上有个都市传说—— 「A 卡音质好，N 卡网速快」。 虽然大家都当段子听，但现在的 N 卡网速快不快我不敢说，音质好倒是真的了。">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://image.neko7ina.com/20200425/index.jpg">
+<meta property="og:image" content="https://image.neko7ina.com/images/20200425/index.jpg">
 <meta property="article:published_time" content="2020-04-25T10:12:27.000Z">
-<meta property="article:modified_time" content="2024-11-24T02:50:53.021Z">
+<meta property="article:modified_time" content="2026-11-05T08:54:06.021Z">
 <meta property="article:author" content="NeKo7inA">
 <meta property="article:tag" content="NVIDIA">
 <meta property="article:tag" content="折腾">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://image.neko7ina.com/20200425/index.jpg">
+<meta name="twitter:image" content="https://image.neko7ina.com/images/20200425/index.jpg">
   
   
   
@@ -430,7 +430,7 @@
 <p>如果是 RTX 显卡，直接安装即可；若不是，则继续往下看。</p>
 <p>首先找到下载的安装程序，右击使用 7z 之类的压缩软件打开，将所有内容解压到一个地方，找到位于文件夹 <code>NvAFX</code> 下的文件 <code>RTXVoice.nvi</code>，右击编辑，搜索关键字 <code>&lt;constraints&gt;</code> 找到目标内容，类似这样：</p>
 <p><span class="fluid-lazy-image" style="aspect-ratio: 1267 / 968;width:90%;max-width:1267px">
-  <img class="img-blur" data-src="https://image.neko7ina.com/20200425/1.jpg" alt="" loading="lazy" fetchpriority="low" decoding="async">
+  <img class="img-blur" data-src="https://image.neko7ina.com/images/20200425/1.jpg" alt="" loading="lazy" fetchpriority="low" decoding="async">
   <img class="blur-loading" src="data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAwCdASoRAA0APrVInkmnJCKhMAgA4BaJaQDE2CHPA2CFoEKkAAD+7stAWh7NmLlfsQTlj+lfuahLop1XXANV/ZjT/AAA" alt="" aria-hidden="true" loading="lazy" fetchpriority="low" decoding="sync">
 </span></p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">constraints</span>&gt;</span><br>	<span class="hljs-tag">&lt;<span class="hljs-name">property</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;Feature.RTXVoice&quot;</span> <span class="hljs-attr">level</span>=<span class="hljs-string">&quot;silent&quot;</span> <span class="hljs-attr">text</span>=<span class="hljs-string">&quot;$&#123;&#123;InstallBlockedMessage&#125;&#125;&quot;</span>/&gt;</span><br><span class="hljs-tag">&lt;/<span class="hljs-name">constraints</span>&gt;</span><br></code></pre></td></tr></table></figure>
@@ -439,13 +439,13 @@
 <p>退回到上一级文件夹，双击 <code>setup.exe</code>，即可成功安装。</p>
 <h1 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h1><p>安装好之后就会启动一个 <code>NVIDIA RTX Voice</code> 的程序，双击可以打开设置面板。</p>
 <p><span class="fluid-lazy-image" style="aspect-ratio: 600 / 544;width:90%;max-width:600px">
-  <img class="img-blur" data-src="https://image.neko7ina.com/20200425/2.jpg" alt="" loading="lazy" fetchpriority="low" decoding="async">
+  <img class="img-blur" data-src="https://image.neko7ina.com/images/20200425/2.jpg" alt="" loading="lazy" fetchpriority="low" decoding="async">
   <img class="blur-loading" src="data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACQAwCdASoRAA8APrVIn0onJCKhsAgA4BaJaQAAWq2+IYDMaNqAAP7xes1DA3IYwuoaK0HsCWJoc98iY2ypKNXD060DthxShEFBVFnTctwAAA==" alt="" aria-hidden="true" loading="lazy" fetchpriority="low" decoding="sync">
 </span></p>
 <p>设置很简单，input 及 output 分别选择你使用的输入及输出设备，打勾表示进行降噪处理，滑动条则是处理的力度。</p>
 <p>在程序安装好并自动启动时，会将你的输入和输出设备自动选择成 NVIDIA RTX Voice 的虚拟扬声器及虚拟麦克风，因为我不需要它对我播放的声音进行处理，所以手动将输出设备改回了原本的扬声器，输入设备选择了 <code>麦克风（NVIDIA RTX Voice）</code>。</p>
 <p><span class="fluid-lazy-image" style="aspect-ratio: 1500 / 1165;width:90%;max-width:1500px">
-  <img class="img-blur" data-src="https://image.neko7ina.com/20200425/3.jpg" alt="" loading="lazy" fetchpriority="low" decoding="async">
+  <img class="img-blur" data-src="https://image.neko7ina.com/images/20200425/3.jpg" alt="" loading="lazy" fetchpriority="low" decoding="async">
   <img class="blur-loading" src="data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAwCdASoRAA0APrVInkmnJCKhMAgA4BaJaQAAUpbYEwgA/tcrJcpUDOgmEqsyWb9ZzyVswlxI0kHToAA=" alt="" aria-hidden="true" loading="lazy" fetchpriority="low" decoding="sync">
 </span></p>
 <h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>使用了几天，效果还是很拔群的，队友表示终于不用被我的电流麦折磨了。</p>
