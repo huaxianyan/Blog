@@ -26,13 +26,13 @@
 <meta property="og:site_name" content="七味茶盏">
 <meta property="og:description" content="从这个用于自我满足的博客诞生之际，评论系统就在数个方案之间换来换去。 最终我找到了 Twikoo 并一直用到现在，是目前最适合我的评论方案。">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://image.neko7ina.com/images/20220731/index.jpg">
+<meta property="og:image" content="https://image.neko7ina.com/20220731/index.jpg">
 <meta property="article:published_time" content="2022-07-31T07:25:57.000Z">
 <meta property="article:modified_time" content="2026-11-05T08:54:06.034Z">
 <meta property="article:author" content="NeKo7inA">
 <meta property="article:tag" content="折腾">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://image.neko7ina.com/images/20220731/index.jpg">
+<meta name="twitter:image" content="https://image.neko7ina.com/20220731/index.jpg">
   
   
   
@@ -429,15 +429,15 @@
 <p>备份很简单，首先登录腾讯云控制台，进入 <code>云开发 CloudBase</code> 页面，进入 Twikoo 使用的环境。</p>
 <p>左侧选择 <code>数据库</code> 选项，然后在右侧列表中点击 <code>comment</code> 进入详情页，点击 <code>导出</code> 后，使用默认 <code>JSON</code> 格式导出，即可获得评论数据的备份文件。</p>
 <p><span class="fluid-lazy-image" style="aspect-ratio: 1087 / 978;width:90%;max-width:1087px">
-  <img class="img-blur" data-src="https://image.neko7ina.com/images/20220731/1.png" alt="" loading="lazy" fetchpriority="low" decoding="async">
+  <img class="img-blur" data-src="https://image.neko7ina.com/20220731/1.png" alt="" loading="lazy" fetchpriority="low" decoding="async">
   <img class="blur-loading" src="data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACQAwCdASoRAA8APrVKnkonJCKhsAgA4BaJZQDCgB6QPaVDurAAAP7xR0+K2Gl0g74KuNQvuA+ZLUnRsWTP5AjKWUFxgR9YC7Nk6AWY2/flpKdWFgAAAA==" alt="" aria-hidden="true" loading="lazy" fetchpriority="low" decoding="sync">
 </span></p>
 <p><span class="fluid-lazy-image" style="aspect-ratio: 1292 / 898;width:90%;max-width:1292px">
-  <img class="img-blur" data-src="https://image.neko7ina.com/images/20220731/2.png" alt="" loading="lazy" fetchpriority="low" decoding="async">
+  <img class="img-blur" data-src="https://image.neko7ina.com/20220731/2.png" alt="" loading="lazy" fetchpriority="low" decoding="async">
   <img class="blur-loading" src="data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAwCdASoRAAwAPrVKnkmnJCKhMAgA4BaJaQAAUqbGG6AA/upHwzeYR+aMSd49oJm+8UvZMIx85od+AAA=" alt="" aria-hidden="true" loading="lazy" fetchpriority="low" decoding="sync">
 </span></p>
 <p><span class="fluid-lazy-image" style="aspect-ratio: 758 / 675;width:90%;max-width:758px">
-  <img class="img-blur" data-src="https://image.neko7ina.com/images/20220731/3.png" alt="" loading="lazy" fetchpriority="low" decoding="async">
+  <img class="img-blur" data-src="https://image.neko7ina.com/20220731/3.png" alt="" loading="lazy" fetchpriority="low" decoding="async">
   <img class="blur-loading" src="data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAwCdASoRAA8APrVInkmnJCKhMAgA4BaJZQBT9mfwFi6Hl3BvQAD+9iWSKm++Y5PaaFV8aDrbc2gabpsdAvEcNjS5UdQ3Uy0o0bSAAAA=" alt="" aria-hidden="true" loading="lazy" fetchpriority="low" decoding="sync">
 </span></p>
 <center><i><font color="#6c757d">评论数据导出</font></i></center>
@@ -456,7 +456,7 @@
 <p>这时候再去主题配置文件找到 Twikoo 相关配置项，将 <code>envId</code> 从之前的腾讯云开发 ID 换成 <code>http://yourip:port/</code> 本地调试应该就可以连上评论系统了。</p>
 <p>重新设置好管理密码，正常进入管理面板，找到 <code>导入</code> 选项卡，源系统选择 <code>Twikoo（JSON）</code>，再选择评论数据备份文件点击 <code>开始导入</code>，没什么意外评论内容就全部搬过来了。</p>
 <p><span class="fluid-lazy-image" style="aspect-ratio: 904 / 503;width:90%;max-width:904px">
-  <img class="img-blur" data-src="https://image.neko7ina.com/images/20220731/4.png" alt="" loading="lazy" fetchpriority="low" decoding="async">
+  <img class="img-blur" data-src="https://image.neko7ina.com/20220731/4.png" alt="" loading="lazy" fetchpriority="low" decoding="async">
   <img class="blur-loading" src="data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAABwAwCdASoRAAkAPrVKn0onJCKhsAgA4BaJaSzAAAGDrT5uWeAA4ZcbiIgqEIYhVw1Gvfjs0eBJIp2zkk5tck2zDovtAgAA" alt="" aria-hidden="true" loading="lazy" fetchpriority="low" decoding="sync">
 </span></p>
 <center><i><font color="#6c757d">评论数据导出</font></i></center>
@@ -474,7 +474,7 @@
 <p>需要注意的是如果碰到跨域问题，需要额外的配置来解决。</p>
 <p>因为个人的博客是放在腾讯云静态存储且套了 CDN，我直接在 CDN 上设置了 <code>HTTP 响应头配置</code>，所以这里 Nginx 就没有再写相应的配置也能正常工作。</p>
 <p><span class="fluid-lazy-image" style="aspect-ratio: 1228 / 437;width:90%;max-width:1228px">
-  <img class="img-blur" data-src="https://image.neko7ina.com/images/20220731/5.png" alt="" loading="lazy" fetchpriority="low" decoding="async">
+  <img class="img-blur" data-src="https://image.neko7ina.com/20220731/5.png" alt="" loading="lazy" fetchpriority="low" decoding="async">
   <img class="blur-loading" src="data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAgCdASoRAAYAPrVInkmnJCKhMAgA4BaJaQAAfj4AAP70DFTPg0nzzlfYuDStQFW2AA==" alt="" aria-hidden="true" loading="lazy" fetchpriority="low" decoding="sync">
 </span></p>
 <center><i><font color="#6c757d">HTTP 响应头配置</font></i></center>
@@ -494,7 +494,7 @@
 <p>找到 Twikoo 映射的数据文件夹，其中 <code>db.json.0</code> 存放了所有评论数据，将其下到本地打开。</p>
 <p>以 <code>tk-img</code> 为搜索关键字找到所有上传图片的 URL，然后全部指向了一张 404 图片。</p>
 <p><span class="fluid-lazy-image" style="aspect-ratio: 577 / 325;width:90%;max-width:577px">
-  <img class="img-blur" data-src="https://image.neko7ina.com/images/base/404_image.jpg" alt="" loading="lazy" fetchpriority="low" decoding="async">
+  <img class="img-blur" data-src="https://image.neko7ina.com/base/404_image.jpg" alt="" loading="lazy" fetchpriority="low" decoding="async">
   <img class="blur-loading" src="data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACwAwCdASoRAAkAPrVInkmnJCKhMAgA4BaJaQDImB4W1Y8xXdxMgAD+9/FuBrxxJC3f6z2iWo9Sp3m4Ez0xWFlMuRS9aufPRuitTHXu/6VMjXGR+YAAAA==" alt="" aria-hidden="true" loading="lazy" fetchpriority="low" decoding="sync">
 </span></p>
 <center><i><font color="#6c757d">今天请同事设计的</font></i></center>
